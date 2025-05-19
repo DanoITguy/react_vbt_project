@@ -12,17 +12,17 @@ Here is an example of where I am at with Xcode:
 
 React Native and a GoPro
 1) First off, let’s get react Native installed:
-Let's use the react-native-cli package to build a new project:
-npx react-native@latest init imagekitReactNative
-Navigate to the project directory:
-cd imagekitReactNative/
-Start the metro server.
-npx react-native start
-And now to run the app in the iOS simulator (you should have Xcode installed)
-npm run ios
-Or to run the app in the android simulator (you should have android studio installed)
-npm run android
-You should see the “Welcome to React Native” screen. This means the sample app has been set up correctly.
+2) Let's use the react-native-cli package to build a new project:
+3) npx react-native@latest init imagekitReactNative
+4) Navigate to the project directory:
+5) cd imagekitReactNative/
+6) Start the metro server.
+7) npx react-native start
+9)And now to run the app in the iOS simulator (you should have Xcode installed)
+10) npm run ios
+11) Or to run the app in the android simulator (you should have android studio installed)
+12) npm run android
+13) You should see the “Welcome to React Native” screen. This means the sample app has been set up correctly.
 
 GoPro Video
 1) My GoPro has a Wifi Spot where I can send commands over curl and I experimented with my GoPro to switch to video mode. 
